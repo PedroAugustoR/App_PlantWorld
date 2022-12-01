@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azul"
+    tools:context=".arvore">
+
+  <ImageView
+      android:id="@+id/imagelogosuport"
+      android:layout_width="86dp"
+      android:layout_height="77dp"
+
+      android:src="@drawable/plantlogo"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/textNomequemsomosresp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Somos Estudantes da faculdade Unimar, onde cursamos análise e desenvolvimento de sistema e temos ótimos professores progamadores."
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.112" />
+
+  <TextView
+      android:id="@+id/textOquefazemosresp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Nós desenvolvemos aplicações e sistemas afins de auxiliar a sociedade, melhorando o meio ambiente e preservando o planeta."
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.239" />
+
+  <TextView
+      android:id="@+id/textoquefazemos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:text="O que fazemos"
+      android:textColor="@color/verdeescuro"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.49"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imagelogosuport"
+      app:layout_constraintVertical_bias="0.191" />
+
+  <TextView
+      android:id="@+id/textcomecamos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="248dp"
+      android:text="Iniciamos nosso aprendizado em 2019 - Marilia|SP, estamos entrando no mercado em alto nível."
+      android:textAlignment="center"
+      android:textColor="@color/white"
+
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textoqueondecomecamos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Quando começamos"
+      android:textColor="@color/verdeescuro"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.308" />
+
+  <TextView
+      android:id="@+id/textpq"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="32dp"
+      android:text="O motivo é o desmatamento ou desflorestamento que se refere à eliminação total ou parcial de qualquer tipo de cobertura vegetal.
+ Atualmente, é considerado um dos maiores problemas ambientais.
+E assim buscamos as melhores formas para desenvolvimento, para ajudar a sociedade e o planeta.!"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.569" />
+
+  <TextView
+      android:id="@+id/textopq"
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+      android:layout_marginTop="16dp"
+      android:text="Por que realizamos nossa atividade?"
+      android:textColor="@color/verdeescuro"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.493"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textcomecamos" />
+
+  <TextView
+      android:id="@+id/textquemsomos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="132dp"
+      android:text="Quem somos?"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imagelogosuport"
+      app:layout_constraintVertical_bias="0.042" />
+
+  <Button
+      android:id="@+id/voltarsup"
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:backgroundTint="@color/verde"
+      android:padding="20dp"
+      android:text="Voltar"
+      android:textAllCaps="false"
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <Button
+      android:id="@+id/voltarenviar"
+      style="@style/Button"
+      android:layout_width="230dp"
+      android:layout_height="72dp"
+      android:layout_margin="20dp"
+      android:backgroundTint="@color/black"
+      android:padding="20dp"
+      android:text="Enviar E-mail"
+      android:textAllCaps="false"
+      android:textColor="@color/verdeescuro"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.889" />
+
+  <TextView
+      android:id="@+id/email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:text="plantworld.com.br"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.311"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.745" />
+
+  <ImageView
+      android:id="@+id/emailcontato"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:src="@drawable/ic_mail_24"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imagelogosuport"
+      app:layout_constraintVertical_bias="0.751" />
+
+  <TextView
+      android:id="@+id/telefone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:text="(34).991480676"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.295"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.673" />
+
+  <ImageView
+      android:id="@+id/telefonecontato"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:src="@drawable/ic_call_24"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/imagelogosuport"
+      app:layout_constraintVertical_bias="0.678" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

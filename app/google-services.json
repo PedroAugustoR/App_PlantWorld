@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252432863510",
+    "project_id": "plant-world-2b911",
+    "storage_bucket": "plant-world-2b911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252432863510:android:34cbaaee79cd89f98fc037",
+        "android_client_info": {
+          "package_name": "co.tiagoaguiar.tutorial.gmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252432863510-om1jjjet0m4adffsai04tc3a03eo4av5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dQM2iS5m2OLWLJlMZpleP0jNUniiB6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252432863510-om1jjjet0m4adffsai04tc3a03eo4av5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
